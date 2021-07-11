@@ -1,0 +1,220 @@
+body{
+    background-color: azure;
+    font-family:  'Oxygen', sans-serif;
+
+
+}
+
+
+
+
+
+
+/* **************************************************************************** */
+
+
+
+
+
+
+
+
+
+
+.mIntro, .mAbout , .mWarning{
+    margin: 1rem;
+}
+
+
+.mIntro{
+    text-align: center;
+    margin: 2rem 0 1.5rem 0;
+
+}
+.mQnADiv{
+    margin: 2rem 1rem 2rem 1rem;
+
+}
+
+.mCardBootstrap{
+    margin: 3rem 1rem 2rem 1rem;
+}
+
+
+
+/* ---------------------------------------videos page------------------------- */
+
+
+.mPlaylist{
+    margin: 1.5rem;
+}
+
+
+
+.q-1,.q-2,.q-3,.q-4,.q-5,.q-6 {
+    margin: 0.8rem;
+}
+
+.styleImageContainer:hover .styleHoverBox{
+    opacity: 1;
+}
+
+.doc-attack-style{
+    padding: 2rem;
+    border: 1px dashed rgb(36, 160, 177);
+    transition: 2s ease;
+  backface-visibility: hidden;
+
+}
+.doc-attack-style:hover{
+    box-shadow: 5px 5px 8px 5px rgba(0, 140, 186, 0.5);
+}
+.styleImageContainer:hover .doc-attack-style {
+    opacity: 0.3;
+  }
+
+.styleHoverBox{
+
+    transition: 2s ease-in-out;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.styleText a{
+    background-color: #24a5c5;
+    color: white;
+    /* font-size: 16px;
+    padding: 16px 32px; */
+    text-align: center;
+    text-decoration:wavy;
+    border-radius: 5%;
+}
+.styleText a:hover{
+    box-shadow: 4px 3px 8px 5px #27a4adb4;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card{
+    margin: 1rem;
+}
+
+.card-deck{
+    margin: 2rem;
+}
+.card-text{
+backface-visibility: hidden;}
+.mFlag:hover .card-text{
+    opacity: 1;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .styleImageContainer:hover .styleHoverBox{
+    opacity: 1;
+}
+.styleImageContainer:hover .doc-attack-style {
+    opacity: 0.3;
+  }
+
+.doc-attack-style{
+    padding: 2rem;
+    border: 1px dashed rgb(36, 160, 177);
+    transition: 2s ease;
+    backface-visibility: hidden;
+
+    
+
+
+}
+.doc-attack-style:hover{
+    box-shadow: 5px 5px 8px 5px rgba(0, 140, 186, 0.5);
+}
+
+
+.styleHoverBox{
+
+    transition: 2s ease-in-out;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.styleText a{
+    background-color: #24a5c5;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    text-decoration:wavy;
+    border-radius: 5%;
+}
+.styleText a:hover{
+    box-shadow: 4px 3px 8px 5px #27a4adb4;
+    border-radius: 10px;
+    
+}
+
+
+ */
+
+
+
+ /* --------------------------------- contact page-------------------------------- */
+
+.mContact1{
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+}
+
+.mContact2{
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+}
+
+ .mBtnYt{
+     color: red;
+     font-size: 5rem;
+     align-items: center;
+     text-align: center;
+     
+ }
+
+ .mBtnYt:hover{
+    
+ }
